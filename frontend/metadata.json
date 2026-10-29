@@ -1,0 +1,6 @@
+{
+  "name": "Duty Outside Request System",
+  "description": "Official APA DOSR for tracking staff external movements, monthly duty hours, reason breakdowns, and missed fingerprint scan reconciliation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

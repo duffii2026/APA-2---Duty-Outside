@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+**/node_modules/
+backend/.env*
+
+# Build output
+dist/
+dist2/
+dist1/
+build/
+.next/
+out/
+.vite/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+duty_d.sql
+NOTICE_FLOW.txt
+# Runtime
+*.pid
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache/
+.stylelintcache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+
+# Uploads / generated files
+uploads/
+storage/
+
+# Certificates / private keys
+*.pem
+*.key
+*.crt
+
+# Database local files
+*.sqlite
+*.sqlite3
+*.db

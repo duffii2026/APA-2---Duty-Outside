@@ -1,0 +1,13 @@
+node_modules/
+
+# The active env file (.env, .env1, .env2) holds DB credentials.
+.env
+.env.local
+.env1
+.env2
+
+# dist/ is the webpack bundle output.
+dist/
+
+data.json
+*.log

@@ -1,0 +1,19 @@
+node_modules/
+build/
+dist/
+dist1/
+dist2/
+coverage/
+.DS_Store
+*.log
+
+# Local/secrets only. The per-app env files below are committed on purpose:
+# they hold ports, proxy targets and branding, not credentials.
+.env
+.env.local
+.env.*.local
+!.env.dev1
+!.env.dev2
+!.env.build1
+!.env.build2
+!.env.example

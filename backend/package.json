@@ -1,0 +1,26 @@
+{
+  "name": "apa2-duty-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "APA Duty Outside Request System",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "build": "webpack",
+    "start": "node dist/serverduty.bundle.js",
+    "serve": "pm2 startOrReload ecosystem.config.cjs --only apa2-duty-backend",
+    "db:schema": "mysql -u root -p < schema.sql"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "undici": "^8.10.2"
+  },
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.6.1",
+    "webpack": "^5.110.3",
+    "webpack-cli": "^7.2.3"
+  }
+}
